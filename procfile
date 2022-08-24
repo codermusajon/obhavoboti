@@ -1,1 +1,1 @@
-web: gunicorn app:obhavobot
+worker: python obhavo.py
