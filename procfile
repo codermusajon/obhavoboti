@@ -1,1 +1,1 @@
-web: gunicorn obhavobot.py
+web: gunicorn app:obhavobot
