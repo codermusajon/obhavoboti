@@ -52,7 +52,6 @@ pygame==2.1.2
 pyinstaller==4.10
 pyinstaller-hooks-contrib==2022.3
 pyOpenSSL==22.0.0
-pypiwin32==223
 PySimpleGUI==4.57.0
 PySocks==1.7.1
 python-telegram-bot==13.11
