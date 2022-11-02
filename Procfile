@@ -1,1 +1,1 @@
-worker: python obhavo.py
+worker: python obhavobot.py
