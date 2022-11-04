@@ -143,43 +143,43 @@ def inline_handlerlar(update, context):
     data = query.data.split("_")
 
     if data[0] == "01":
-        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n🌡{t_degree[:4]} \n🌡{t_degree[-4:]} \n {t_osmon} \n {t_namlik.text} \n {t_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n🌡{t_degree[:4]} \n🌡{t_degree[-4:]} \n⛅{t_osmon} \n {t_namlik.text} \n {t_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "02":
-        query.message.edit_text(f"🌏Mintaqangiz:  {j_mintaqa} \n🌡{j_degree[:4]} \n🌡{j_degree[-4:]} \n {j_osmon} \n {j_namlik.text} \n {j_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {j_mintaqa} \n🌡{j_degree[:4]} \n🌡{j_degree[-4:]} \n⛅{j_osmon} \n {j_namlik.text} \n {j_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "03":
-        query.message.edit_text(f"🌏Mintaqangiz:  {a_mintaqa} \n🌡{a_degree[:4]} \n🌡{a_degree[-4:]} \n {a_osmon} \n {a_namlik.text} \n {a_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {a_mintaqa} \n🌡{a_degree[:4]} \n🌡{a_degree[-4:]} \n⛅{a_osmon} \n {a_namlik.text} \n {a_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "04":
-        query.message.edit_text(f"🌏Mintaqangiz:  {b_mintaqa} \n🌡{b_degree[:4]} \n🌡{b_degree[-4:]} \n {b_osmon} \n {b_namlik.text} \n {b_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {b_mintaqa} \n🌡{b_degree[:4]} \n🌡{b_degree[-4:]} \n⛅{b_osmon} \n {b_namlik.text} \n {b_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "05":
-        query.message.edit_text(f"🌏Mintaqangiz:  {k_mintaqa} \n🌡{k_degree[:4]} \n🌡{k_degree[-4:]} \n {k_osmon} \n {k_namlik.text} \n {k_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {k_mintaqa} \n🌡{k_degree[:4]} \n🌡{k_degree[-4:]} \n⛅{k_osmon} \n {k_namlik.text} \n {k_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "06":
-        query.message.edit_text(f"🌏Mintaqangiz:  {nv_mintaqa} \n🌡{nv_degree[:4]} \n🌡{nv_degree[-4:]} \n {nv_osmon} \n {nv_namlik.text} \n {nv_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {nv_mintaqa} \n🌡{nv_degree[:4]} \n🌡{nv_degree[-4:]} \n⛅{nv_osmon} \n {nv_namlik.text} \n {nv_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "07":
-        query.message.edit_text(f"🌏Mintaqangiz:  {na_mintaqa} \n🌡{na_degree[:4]} \n🌡{na_degree[-4:]} \n {na_osmon} \n {na_namlik.text} \n {na_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {na_mintaqa} \n🌡{na_degree[:4]} \n🌡{na_degree[-4:]} \n⛅{na_osmon} \n {na_namlik.text} \n {na_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "08":
-        query.message.edit_text(f"🌏Mintaqangiz:  {nu_mintaqa} \n🌡{nu_degree[:4]} \n🌡{nu_degree[-4:]} \n {nu_osmon} \n {nu_namlik.text} \n {nu_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {nu_mintaqa} \n🌡{nu_degree[:4]} \n🌡{nu_degree[-4:]} \n⛅{nu_osmon} \n {nu_namlik.text} \n {nu_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "09":
-        query.message.edit_text(f"🌏Mintaqangiz:  {s_mintaqa} \n🌡{s_degree[:4]} \n🌡{s_degree[-4:]} \n {s_osmon} \n {s_namlik.text} \n {s_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {s_mintaqa} \n🌡{s_degree[:4]} \n🌡{s_degree[-4:]} \n⛅{s_osmon} \n {s_namlik.text} \n {s_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "10":
-        query.message.edit_text(f"🌏Mintaqangiz:  {te_mintaqa} \n🌡{te_degree[:4]} \n🌡{te_degree[-4:]} \n {te_osmon} \n {te_namlik.text} \n {te_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {te_mintaqa} \n🌡{te_degree[:4]} \n🌡{te_degree[-4:]} \n⛅{te_osmon} \n {te_namlik.text} \n {te_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "11":
-        query.message.edit_text(f"🌏Mintaqangiz:  {u_mintaqa} \n🌡{u_degree[:4]} \n🌡{u_degree[-4:]} \n {u_osmon} \n {u_namlik.text} \n {u_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {u_mintaqa} \n🌡{u_degree[:4]} \n🌡{u_degree[-4:]} \n⛅{u_osmon} \n {u_namlik.text} \n {u_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "12":
-        query.message.edit_text(f"🌏Mintaqangiz:  {f_mintaqa} \n🌡{f_degree[:4]} \n🌡{f_degree[-4:]} \n {f_osmon} \n {f_namlik.text} \n {f_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {f_mintaqa} \n🌡{f_degree[:4]} \n🌡{f_degree[-4:]} \n⛅{f_osmon} \n {f_namlik.text} \n {f_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "13":
-        query.message.edit_text(f"🌏Mintaqangiz:  {kh_mintaqa} \n🌡{kh_degree[:4]} \n🌡{kh_degree[-4:]} \n {kh_osmon} \n {kh_namlik.text} \n {kh_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {kh_mintaqa} \n🌡{kh_degree[:4]} \n🌡{kh_degree[-4:]} \n⛅{kh_osmon} \n {kh_namlik.text} \n {kh_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
 
 
