@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup as BS
 
 t = requests.get('https://obhavo.uz/tashkent')
 html_t = BS(t.content, 'html.parser')
-t_namlik = html_t.find_all('div',class_='col-1')[0]
+t_namlik = html_t.find_all('div',class_='col-1')[0].text.strip()
 t_osmon = html_t.find_all('div', class_='current-forecast-desc')[0].text.strip()
 t_oy=html_t.find_all('div', class_='col-2')[0].text.strip()
 t_mintaqa = html_t.find('div', class_='padd-block').find_all('h2')[0].text.strip()
@@ -143,7 +143,7 @@ def inline_handlerlar(update, context):
     data = query.data.split("_")
 
     if data[0] == "01":
-        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n🌡{t_degree[:4]} \n🌡{t_degree[-4:]} \n⛅{t_osmon} \n💧{t_namlik.text[:12]} \n {t_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n🌡{t_degree[:4]} \n🌡{t_degree[-4:]} \n⛅{t_osmon} \n💧{t_namlik[:12]} \n {t_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "02":
         query.message.edit_text(f"🌏Mintaqangiz:  {j_mintaqa} \n🌡{j_degree[:4]} \n🌡{j_degree[-4:]} \n⛅{j_osmon} \n💧{j_namlik.text} \n {j_oy} \n Manzilimiz: @hudud_infobot",
