@@ -143,10 +143,10 @@ def inline_handlerlar(update, context):
     data = query.data.split("_")
 
     if data[0] == "01":
-        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n {t_degree} \n {t_osmon} \n {t_namlik.text} \n {t_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {t_mintaqa} \n🌡{t_degree} \n {t_osmon} \n {t_namlik.text} \n {t_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "02":
-        query.message.edit_text(f"🌏Mintaqangiz:  {j_mintaqa} \n {j_degree} \n {j_osmon} \n {j_namlik.text} \n {j_oy} \n Manzilimiz: @hudud_infobot",
+        query.message.edit_text(f"🌏Mintaqangiz:  {j_mintaqa} \n🌡{j_degree} \n {j_osmon} \n {j_namlik.text} \n {j_oy} \n Manzilimiz: @hudud_infobot",
                                 reply_markup=InlineKeyboardMarkup(back()))
     elif data[0] == "03":
         query.message.edit_text(f"🌏Mintaqangiz:  {a_mintaqa} \n {a_degree} \n {a_osmon} \n {a_namlik.text} \n {a_oy} \n Manzilimiz: @hudud_infobot",
