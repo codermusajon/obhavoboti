@@ -114,19 +114,13 @@ kh_degree = html_kh.find_all('div',class_='current-forecast')[0].text.strip()
 
 def city():
     return [
-        [InlineKeyboardButton("Toshkent", callback_data=f"01")],
-        [InlineKeyboardButton("Jizzax", callback_data=f"02")],
-        [InlineKeyboardButton("Andijon", callback_data=f"03")],
-        [InlineKeyboardButton("Buxoro", callback_data=f"04")],
-        [InlineKeyboardButton("Qarshi", callback_data=f"05")],
-        [InlineKeyboardButton("Navoiy", callback_data=f"06")],
-        [InlineKeyboardButton("Namangan", callback_data=f"07")],
-        [InlineKeyboardButton("Nukus", callback_data=f"08")],
-        [InlineKeyboardButton("Samarqand", callback_data=f"09")],
-        [InlineKeyboardButton("Termiz", callback_data=f"10")],
-        [InlineKeyboardButton("Urganch", callback_data=f"11")],
-        [InlineKeyboardButton("Farg'ona", callback_data=f"12")],
-        [InlineKeyboardButton("Xiva", callback_data=f"13")]
+        [InlineKeyboardButton("🌤Toshkent🌤", callback_data=f"01"), InlineKeyboardButton("🌤Jizzax🌤", callback_data=f"02")],
+        [InlineKeyboardButton("🌤Andijon🌤", callback_data=f"03"), InlineKeyboardButton("🌤Buxoro🌤", callback_data=f"04")],
+        [InlineKeyboardButton("🌤Qarshi🌤", callback_data=f"05"), InlineKeyboardButton("🌤Navoiy🌤", callback_data=f"06")],
+        [InlineKeyboardButton("🌤Namangan🌤", callback_data=f"07"), InlineKeyboardButton("🌤Nukus🌤", callback_data=f"08")],
+        [InlineKeyboardButton("🌤Samarqand🌤", callback_data=f"09"), InlineKeyboardButton("🌤Termiz🌤", callback_data=f"10")],
+        [InlineKeyboardButton("🌤Urganch🌤", callback_data=f"11"), InlineKeyboardButton("🌤Farg'ona🌤", callback_data=f"12")],
+        [InlineKeyboardButton("🌤Xiva🌤", callback_data=f"13")]
 
 
     ]
