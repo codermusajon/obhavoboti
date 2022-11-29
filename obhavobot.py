@@ -128,7 +128,7 @@ def city():
 
 def back():
     return [
-        [InlineKeyboardButton("Orqaga", callback_data=f"back1")]
+        [InlineKeyboardButton("◀️Orqaga▶️", callback_data=f"back1")]
     ]
 
 
